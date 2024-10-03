@@ -1,0 +1,3 @@
+#!/bin/bash
+lowest=$(sort -n temperatures.txt | head -n 1)
+echo "Lowest temperature: $lowest"

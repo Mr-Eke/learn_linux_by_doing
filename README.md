@@ -1,5 +1,5 @@
 # learn_linux_by_doing
-## Azalie Oga
+i## Azalie Oga
 Worked on the task of deleting the useless file in the data directory named test-1  
 ```rm test-1```  
 ## amaliza-shal
@@ -12,3 +12,7 @@ Renamed the files in the analyzed directory properly and removed duplicates from
 ## Chiagoziem Eke
 He worked on extracting data on all the heat recorded from his own country (Nigeria) into a new file.  
 ```grep "Nigeria" satelite_temperature_data.csv | cut -d ',' -f 1-3```  
+##Jolly Gift Burabyo
+''' moved top five lowest temperatures from satelite_temperature_data.csv to the file top-5-lowest-temparatures.csv in analyze directory
+'''lowest=$(sort -n temperatures.txt | head -n 1)
+echo "Lowest temperature: $lowest" '''
