@@ -15,4 +15,8 @@ He worked on extracting data on all the heat recorded from his own country (Nige
 ##Jolly Gift Burabyo
 ''' moved top five lowest temperatures from satelite_temperature_data.csv to the file top-5-lowest-temparatures.csv in analyze directory
 '''lowest=$(sort -n temperatures.txt | head -n 1)
-echo "Lowest temperature: $lowest" '''
+echo "Lowest temperature: $lowest"
+## OLive Umurerwa
+
+''moved top five lowest temperatures from satelite_temperature_data.csv to the file top-5-highest-temparatures.csv in analyzed directory 
+cat satelite_temperature_data.csv | cut -d',' -f1-3 | sort -nr | head -n 5 > ../analyzed/top-5-highest-temperatures.csvcat satelite_temperature_data.csv | cut -d',' -f1-3 | sort -nr | head -n 5 > ../analyzed/top-5-highest-temperatures.csv
